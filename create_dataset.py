@@ -13,9 +13,14 @@ def create_dataset(
     Creates a dataset with on the ods server defined in .env
     
     Parameters:
-        new_id (str): ID and title of the new dataset
-        desc (str): Description of the new dataset
-        is_restricted (bool): whether or not the dataset should be set as restricted
+        new_id (str):
+            ID and title of the new dataset
+
+        desc (str):
+            Description of the new dataset
+
+        is_restricted (bool):
+            whether or not the dataset should be set as restricted
 
     Returns:
         The uid of the successfully created dataset or `None` if unsuccessful

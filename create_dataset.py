@@ -10,7 +10,7 @@ def create_dataset(
     is_restricted: bool = None
 ) -> str:
     '''
-    Creates a dataset with on the ods server defined in .env
+    Creates a new dataset on the ods server defined in .env
     
     Parameters:
         new_id (str):
